@@ -1,0 +1,45 @@
+/* /////////////////// CSS3 Mobile(Device)  /////////////////// */
+
+@media screen and (max-width: 480px) {
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+
+	/* MAIN HEAER Properties (MOBILE) */ 
+
+
+	.mainHeader nav {
+		height: 160px;
+	}
+	
+	.mainHeader ul {
+		padding: 0;
+		width: 100%;
+	}
+
+	.mainHeader nav ul li {
+		display: inline;
+	}
+
+	.mainHeader a:link, .mainHeader a:visited{
+		display: block;
+	}
+
+	.mainHeader a:hover, .mainHeader a:active{
+		color: whitesmoke;
+		text-shadow: none;
+		background-color:#F58233;
+	}
+	/****** MAIN CONTENT (MOBILE) ******/
+	.main-content {
+	width: 100%;
+	}
+
+	/****** MAIN SIDEBAR (MOBILE) ******/
+	.theSidebar{
+	width: 93%;
+}
+
+}
+

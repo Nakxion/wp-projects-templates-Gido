@@ -1,0 +1,13 @@
+/* /////////////////// CSS3 IPad(Device)  /////////////////// */
+
+@media screen and (max-width: 780px) {
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+
+	.mainHeader nav{
+		font-size: 75%;
+	}
+
+}
